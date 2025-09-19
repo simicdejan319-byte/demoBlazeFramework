@@ -12,6 +12,10 @@ public class AddToCardMacBookAirPage extends BasePage {
     public By cardHedderOfMacBook = By.id("cartur");
 
 
+
+
+
+
     public AddToCardMacBookAirPage(WebDriver driver, Duration timeout){
         super(driver, timeout);
     }
@@ -21,6 +25,8 @@ public class AddToCardMacBookAirPage extends BasePage {
         acceptAlertTwo();
         click(cardHedderOfMacBook);
     }
+
+
 
 
 

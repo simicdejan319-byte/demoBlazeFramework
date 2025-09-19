@@ -40,4 +40,16 @@ public class BuyFlowTests extends BaseTests{
         finishPage.clickToFinish();
         Assert.assertTrue(homePage.checkFinishBuyFlow());
     }
+
+    @Test
+    public void ajdeDajBoze3() {
+        homePage.lapTopBuyFlowHomePage();
+        lapTopsPage.lapTopBuyFlowLapTopsPage();
+        addToCardMacBookAirPage.lapTopBuyFlowAddToCard();
+        productPage.clickButtonDelete();
+        Assert.assertTrue(productPage.isMacBookEnabled());
+
+
+
+    }
 }
