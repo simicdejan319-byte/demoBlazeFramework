@@ -48,6 +48,7 @@ public class BuyFlowTests extends BaseTests{
         addToCardMacBookAirPage.lapTopBuyFlowAddToCard();
         productPage.clickButtonDelete();
         Assert.assertTrue(productPage.isMacBookEnabled());
+        System.out.println("test je prosao");
 
 
 
