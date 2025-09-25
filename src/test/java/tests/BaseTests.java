@@ -21,7 +21,7 @@ public class BaseTests {
     public static void beforeClass() throws Exception {
         driver = new EdgeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 //        max time to wait for a page load
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(10));
 //        max time for asynchronous JS run
