@@ -21,7 +21,7 @@ public class BaseTests {
     public static void beforeClass() throws Exception {
 
         driver = new FirefoxDriver();
-        System.out.println("Ne raditi git pull");
+        System.out.println("Ne");
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 //        max time to wait for a page load
