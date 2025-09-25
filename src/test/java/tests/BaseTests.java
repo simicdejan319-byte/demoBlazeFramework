@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pages.BasePage;
 
@@ -18,6 +19,7 @@ public class BaseTests {
 
     @BeforeClass
     public static void beforeClass() throws Exception {
+
         driver = new FirefoxDriver();
         System.out.println("Ne raditi git pull");
         driver.manage().window().maximize();
