@@ -19,7 +19,9 @@ public class BaseTests {
 
     @BeforeClass
     public static void beforeClass() throws Exception {
-        driver = new EdgeDriver();
+
+        driver = new FirefoxDriver();
+        System.out.println("Ne raditi git pull");
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 //        max time to wait for a page load
